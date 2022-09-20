@@ -1,10 +1,11 @@
 {
-    "name": "@danny/test_UI",
+    "name": "@danny/test_ui",
     "author": "danny101201",
     "repository": {
         "type": "git",
         "url": "https://github.com/Danny101201/test_mypackage2"
     },
+    "private": false,
     "homepage": "https://github.com/Danny101201/test_mypackage2",
     "version": "1.0.0",
     "description": "A component library for getting people started with easy to re-use components for everyday projects.",
@@ -16,7 +17,8 @@
     "scripts": {
         "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs",
         "build:esm": "tsc",
-        "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+        "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
+        "prepublish": "npm run build"
     },
     "license": "MIT",
     "devDependencies": {

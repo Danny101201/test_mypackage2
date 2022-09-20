@@ -1,10 +1,11 @@
 {
     "name": "@danny/test_UI",
-    "author":"danny101201",
+    "author": "danny101201",
     "repository": {
         "type": "git",
-        "url": "https://github.com/joeythelantern/Component-Library.git"
+        "url": "https://github.com/Danny101201/test_mypackage2"
     },
+    "homepage": "https://github.com/Danny101201/test_mypackage2",
     "version": "1.0.0",
     "description": "A component library for getting people started with easy to re-use components for everyday projects.",
     "main": "dist/cjs/index.js",
@@ -22,6 +23,7 @@
         "@types/node": "^17.0.21",
         "@types/react": "^17.0.37",
         "@types/react-dom": "^17.0.11",
+        "prettier": "^2.7.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "typescript": "^4.5.2"

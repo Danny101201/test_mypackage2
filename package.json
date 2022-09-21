@@ -1,5 +1,5 @@
 {
-    "name": "@danny/react_ui",
+    "name": "@danny101201/react_ui",
     "author": "danny101201",
     "repository": {
         "type": "git",
@@ -15,7 +15,7 @@
         "dist"
     ],
     "scripts": {
-        "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && &npm run build:cjs",
+        "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs",
         "build:esm": "tsc",
         "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
         "prepublish": "npm run build"
